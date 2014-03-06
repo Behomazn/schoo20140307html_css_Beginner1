@@ -84,7 +84,7 @@ nav	{
 }
 
 nav ul	{
-	/*overflow: hidden;*/
+	/* 子要素の高さをわからせてあげる */
 	margin: 0;
 	padding: 0;
 }
@@ -109,7 +109,7 @@ nav li.on a, nav li a:hover	{
 /* 本文ですarticle */
 article {
 	width: 600px;
-	/*float: left; */
+	/* 左側に横並びにする */
 	margin: 0;
 }
 section {
@@ -182,7 +182,7 @@ article section h3.Healer {
 /* 補足要素ですaside */
 aside	{
 	width: 300px;
-	/*float: right;*/ 
+	/* 右側に横並びにする */ 
 	margin: 0 0 50px;
 }
 /* メニュー */
