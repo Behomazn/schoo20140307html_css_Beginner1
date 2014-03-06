@@ -1,0 +1,32 @@
+        <!-- メニュー -->
+    <div class="menu tank">
+      <h3>Tank</h3>
+      <ul>
+        <li><a href="tank.html#nanase">七瀬 八宵（ナナセ ヤヨイ）</a></li>
+        <li><a href="tank.html#aoi">蒼井 悠斗（アオイ ユウト）</a></li>
+        <li><a href="#">虹逆 世界（ニジサカ セカイ）</a></li>
+        <li><a href="#">国代 伊依（クニシロ イヨリ）</a></li>
+      </ul>
+    </div>
+    
+    <!-- メニュー -->
+    <div class="menu dps">
+      <h3>DPS</h3>
+      <ul>
+        <li><a href="dps.html#chigira">千吉良 澪（チギラ ミオ）</a></li>
+        <li><a href="dps.html#kagura">神楽 蒼子（カグラ ソウシ）</a></li>
+        <li><a href="#">尖岳 椿（センガク ツバキ）</a></li>
+        <li><a href="#">陽世 新芽（ハルセ シンメ）</a></li>
+      </ul>
+    </div>
+    
+    <!-- メニュー -->
+    <div class="menu healer">
+      <h3>Healer</h3>
+      <ul>
+        <li><a href="healer.html#mikage">水陰 那月（ミカゲ ナツ）</a></li>
+        <li><a href="healer.html#shirakiin">白城院 素子（シラキイン モトコ）</a></li>
+        <li><a href="#">荊棘 従道（イバラ ツグミチ）</a></li>
+        <li><a href="#">若草 友樹（ワカクサ トモキ）</a></li>
+      </ul>
+    </div>

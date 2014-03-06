@@ -1,0 +1,20 @@
+    <!-- サイト名#sire -->
+  <div id="site">
+    <h1>Jewel<span>Savior</span></h1>
+  </div>
+  <!-- #site end --> 
+  
+  <!-- ソーシャルブックマーク#iconmenu -->
+  <div id="iconmenu">
+    <ul>
+      <li><a href="http://twitter.com/share?url=https://schoo.jp/class/518&text=挫折した人のための、初心者速習html+css【2カラムボックスモデル編】&via=Behomazn&related=Behomazn"><img src="img/twitter.png" alt="Twitter" /></a></li>
+      <li><a href="http://www.facebook.com/sharer.php?u=https://schoo.jp/class/518&amp;t=挫折した人のための、初心者速習html+css【2カラムボックスモデル編】"> <img src="img/facebook.png" alt="Facebook"> </a></li>
+      <li><a href="https://plus.google.com/share?url=https://schoo.jp/class/518" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"> <img src="img/googleplus.png" alt="Google Plus" /> </a></li>
+      <li><a href='http://feedly.com/index.html#subscription%2Ffeed%2Fhttp%3A%2F%2Fbehomazn.hatenablog.com%2Frss'  target='blank'><img src="img/rss.png" alt="生授業schooのニュース"></a></li>
+    </ul>
+  </div>
+  <!-- #iconmenu end --> 
+  
+  <!-- ヘッダー画像.headerimg -->
+  <div class="headerimg"><img src="img/header.jpg" alt=""></div>
+  <!-- .headerimg end -->

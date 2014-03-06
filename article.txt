@@ -1,0 +1,17 @@
+    <h2>3つのロールを理解しよう！</h2>
+    <p>MMOにはTank（タンク）、DPS（ディーピーエス）、Healer（ヒーラー）の３つのロール（役割）があります。あなたはどのロールを目指す？</p>
+    <figure><img src="img/rool.gif" alt="Tank,DPS,Healer">
+      <figcaption>Copyright (C) 2010 - 2014 SQUARE ENIX CO., LTD. All Rights Reserved.</figcaption>
+    </figure>
+    <section>
+    <h3 class="tank">Tank</h3>
+    <p> 盾（役）、タンカー。防御力が高く、敵のヘイトを稼いで、攻撃を一手に受けつつ戦う役目を負う前衛職。常に盾となり敵の攻撃を一手に引き受けるため、常に死と直面しているロール。パーティーを守るヒーロー役をやりたい人向き。</p>
+    </section><!-- section Tank --> 
+    <section>
+    <h3 class="dps">DPS</h3>
+    <p> 1秒間に与えるダメージのこと。転じて、持続的な火力そのものを指して使われる言葉。また、持続的な火力を出すキャラクターの意味でも使用される。ダメージを与える事に専念し、「俺ツエーーーーーー、ヒャッハーーーーー！！」したい人向き。</p>
+    </section><!-- section dps --> 
+    <section>
+    <h3 class="Healer">Healer</h3>
+    <p> パーティメンバーを回復、ステータスを向上させる役割。体力、防御力、素早さなどのステータスが低いため敵の標的になりやすい。ヒーラーが倒されるとパーティ全滅の危険に晒される。自分の身を犠牲にしてパーティーを救いたい人向き。</p>
+    </section><!-- section Healer --> 

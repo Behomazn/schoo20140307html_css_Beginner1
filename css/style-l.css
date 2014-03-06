@@ -1,0 +1,269 @@
+@charset "utf-8";
+
+/* #######基礎工事###### */
+/* フルードイメージ */
+img	{
+	max-width: 100%;
+	height: auto;
+}
+	
+body	{
+	margin: 24px 10px;
+	font-family: 'メイリオ', 'Hiragino Kaku Gothic Pro', sans-serif;
+	color: #666;
+}
+header, aside, article, section, figure {
+	display: block;
+}
+
+#container	{
+	width: 960px;
+	margin: 0 auto;
+}
+
+/* 表紙ですheade */
+header	{
+	margin: 0;
+}
+#site	{
+	float: left;
+	margin: -10px 0 10px;
+	width: 100%;
+	max-width: 420px;
+}
+#site h1	{
+	margin: 0;
+	line-height: 1;
+	color: #F39;
+	font-family: 'Press Start 2P', cursive, Helvetica, Arial, sans-serif;
+	font-size: 50px;
+}
+#site h1 span	{
+	color: #0097d8;
+}
+#site img	{
+	margin-right: 5px;
+	vertical-align:-5px;
+}
+/* アイコンメニュー */
+#iconmenu	{
+	float: right;
+	text-align: right;
+	}
+
+#iconmenu ul	{
+	margin: 0 0 10px 0;
+	padding: 0;
+}
+
+#iconmenu li	{
+	display: inline;
+	list-style-type: none;
+	margin-right: 6px;
+}
+#iconmenu a {
+	text-decoration: none;
+}
+#iconmenu img {
+	border: none;
+}
+
+/* ヘッダー画像 */
+.headerimg img	 {
+	vertical-align: bottom;
+}
+
+/* 目次ですnav  */
+nav	{
+	margin: 0 0 20px;
+	padding: 0;
+	font-family: 'Press Start 2P', cursive, Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	border-top: solid 1px #fff;
+	background-color: #0097d8;
+}
+
+nav ul	{
+	/*overflow: hidden;*/
+	margin: 0;
+	padding: 0;
+}
+nav li	{
+	list-style-type: none;
+	float: left;
+}
+nav li a	{
+	display: block;
+	width: 120px;
+	padding: 10px 0;
+	border-right: solid 1px #fff;
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+}
+nav li.on a, nav li a:hover	{
+	background-color: #F36;
+}
+
+
+/* 本文ですarticle */
+article {
+	width: 600px;
+	/*float: left; */
+	margin: 0;
+}
+section {
+	margin-bottom: 40px;
+}
+article h2	{
+	font-size: 28px;
+	border-bottom: solid 1px #aaa;
+	margin: 0 0 6px;
+	padding: 0 0 3px;
+}
+article p	{
+	line-height: 1.6;
+}
+.date	{
+	float: left;
+	background-color: #0097d8;
+	height: 52px;
+	width: 100px;
+	margin-right: 14px;
+	padding: 8px 8px;
+	border: 4px dashed #fff;
+	text-align: center;
+	font-family: 'Press Start 2P', cursive, Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	color: #FF3;
+}
+.date span	{
+	display: block;
+	color: #fff;
+	font-size: 32px;
+	line-height: 1;
+}
+figure {
+	margin: 10px 0 0;
+	padding: 0;
+}
+figcaption {
+	width: 86%;
+	margin: 0 auto 20px;
+	padding: 0;
+	text-align: center;
+	font-size: 8px;
+	line-height: 1;
+	color: #CCC;
+}
+article section h3 {
+	margin: 0 0 20px;
+	padding: 8px 0 8px 36px;
+	font-family: 'Press Start 2P', cursive, Helvetica, Arial, sans-serif;
+	font-size: 24px;
+	color: #fff;
+}
+article section h3.tank {
+	background: #B5CEE1 url(../img/listmark.png) no-repeat 2% 50%;
+}
+article section h3.dps {
+	padding-left: 40px;
+	background: #B5CEE1 url(../img/listmark2.png) no-repeat 2% 50%;
+}
+article section h3.Healer {
+	background: #B5CEE1 url(../img/listmark3.png) no-repeat 2% 50%;
+}
+.cat	{
+	margin-bottom: 20px;
+	font-size: 14px;
+	color: #666;
+}
+
+/* 補足要素ですaside */
+aside	{
+	width: 300px;
+	/*float: right;*/ 
+	margin: 0 0 50px;
+}
+/* メニュー */
+.menu	{
+	margin-bottom: 50px;
+}
+.menu h3	{
+	font-family: 'Press Start 2P', cursive, Helvetica, Arial, sans-serif;
+	font-size: 26px;
+	color: #0097d8;
+	margin: 0 0 5px;
+}
+.menu ul	{
+	margin: 0;
+	padding: 0;
+	border-top: solid 1px #aaa;
+}
+.menu li	{
+	margin-bottom: 0;
+	list-style-type: none;
+	border-bottom: solid 1px #aaa;
+}
+.menu li a	{display: block;
+	font-size: 14px;
+	text-decoration: none;
+	color: #666;
+	padding: 10px 0 10px 34px;
+	background-repeat: no-repeat;
+	background-position: 6px 12px;
+}
+.tank li a {
+		background-image: url(../img/listmark.png);
+}
+.dps li a {
+		background-image: url(../img/listmark2.png);
+}
+.healer li a {
+		background-image: url(../img/listmark3.png);
+}
+.menu li a:hover	{
+	background-color: #F9C;
+}
+
+
+
+/* 奥付ですfooter */
+footer	{
+	clear: both;
+	font-family: 'Maven Pro', Helvetica, Arial, sans-serif;
+	color: #fff;
+	background-color: #666;
+	padding: 10px 10px 20px;
+}
+footer p	{
+	margin: 0;
+	padding: 0;
+}
+footer p a {
+	font-size: 90%;
+	color: #fff;
+}
+footer small	{
+	font-size: 12px;
+	font-weight: bold;
+	display: block;
+}
+
+
+/* ★演習用に骨組みタグに高さと色を付けてあります★ */
+header {
+	height: 357px;
+	background: #FCC;
+}
+nav {
+	height: 34px;
+}
+article {
+	height: 860px;
+	background: #6C9;
+}
+aside {
+	height: 860px;
+	background: #F99;
+}
